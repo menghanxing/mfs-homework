@@ -6,4 +6,7 @@ router.get('/', function(req, res, next) {
     res.render('index', { title: 'mfs-homework' });
 });
 
+router.route('/login').get(function(req, res) {
+
+});
 module.exports = router;
